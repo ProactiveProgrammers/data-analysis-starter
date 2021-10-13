@@ -1,5 +1,7 @@
 # Data Analysis
 
+TODO: PLEASE DELETE ALL OF THE TODO MARKERS AND THE ASSOCIATED PROMPTS
+
 ## Add Your Name Here
 
 ## Program Input and Output
