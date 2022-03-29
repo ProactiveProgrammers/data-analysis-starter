@@ -16,7 +16,7 @@ TODO: Use a fenced code block to provide the output for this command.
 
 `poetry run dataanalysis --data-file input/data.txt`
 
-### What are the first five lines of the contents of the file that is input into the `datasummarizer`?
+### What are the first five lines of the contents of the file that is input into the `dataanalysis`?
 
 TODO: Use a fenced code block to provide the contents of the file.
 
