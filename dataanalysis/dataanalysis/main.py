@@ -1,17 +1,7 @@
 """Define the command-line interface for the data analysis program."""
 
-from pathlib import Path
 
-import typer
-
-from dataanalysis import summarize
-from dataanalysis import transform
-
-from rich.console import Console
-
-cli = typer.Typer()
-
-console = Console()
+# TODO: Add all of the required import and object construction statements
 
 
 @cli.command()
