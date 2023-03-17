@@ -1,4 +1,4 @@
-"""Define the command-line interface for the datasummarizer program."""
+"""Define the command-line interface for the data analysis program."""
 
 from pathlib import Path
 
