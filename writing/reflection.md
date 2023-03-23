@@ -37,7 +37,7 @@ TODO: Write at least one paragraph to explain the requested source code
 
 TODO: Write at least one paragraph to explain the provided source code
 
-```
+```python
 def transform_string_to_number_list(data_text: str) -> List[float]:
     """Transform a string of (date, float) values to a list of floats."""
     data_number_list = []
@@ -51,7 +51,7 @@ def transform_string_to_number_list(data_text: str) -> List[float]:
 
 TODO: Write at least one paragraph to explain the provided source code
 
-```
+```python
 def compute_difference(numbers: List[float]) -> List[float]:
     """Compute difference for each value from the calculated mean."""
     # compute the mean
