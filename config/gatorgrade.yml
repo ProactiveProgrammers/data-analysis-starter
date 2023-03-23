@@ -169,8 +169,42 @@ setup: |
         tag: code_block
         count: 6
         exact: false
+
+# run a command
+- description: Pass the source code formatting checks run by black
+  command: cd dataanalysis && poetry run task black
+
+# run a command
+- description: Pass the linting checks run by flake8
+  command: cd dataanalysis && poetry run task flake8
+
+# run a command
+- description: Pass the import checks run by isort
+  command: cd dataanalysis && poetry run task isort
+
+# run a command
+- description: Pass the linting checks run by mypy
+  command: cd dataanalysis && poetry run task mypy
+
+# run a command
+- description: Pass the linting checks run by pydocstyle
+  command: cd dataanalysis && poetry run task pydocstyle
+
+# run a command
+- description: Pass the linting checks run by pylint
+  command: cd dataanalysis && poetry run task pylint
+
+# run a command
+- description: Pass the linting checks run by pymarkdown
+  command: cd dataanalysis && poetry run task markdownlint
+
+# run a command
+- description: Pass all of the Pytest test cases
+  command: cd dataanalysis && poetry run task test
+
 # --> check that the number of commits in the Git repository is beyond a threshold
+# count number of commits in the GitHub repository
 - description: Have at least a specific minimum number of commits (5) in repository
   check: CountCommits
   options:
-    count: 5
+    count: 10
